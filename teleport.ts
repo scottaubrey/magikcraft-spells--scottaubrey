@@ -7,4 +7,6 @@ if (there)	{
 } else {
     const here = magik.hic();
     magik.memento(here);
+    
+    }
 }
