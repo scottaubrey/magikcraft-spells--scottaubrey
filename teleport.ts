@@ -4,5 +4,6 @@ function teleport() {
 const there = magik.memento.getItem();
 if (there)	{
     magik.ianuae(there)
-}el
+} else {
+    co
 }
