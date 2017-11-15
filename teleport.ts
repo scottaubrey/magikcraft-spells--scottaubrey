@@ -1,7 +1,7 @@
 const magik = magikcraft.io;
 
-function teleport() {
-const there = magik.memento.getItem();
+function teleport(name) {
+const there = magik.memento.getItem(name);
 if (there)	{
     magik.ianuae(there)
 } else {
