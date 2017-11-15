@@ -5,5 +5,6 @@ const there = magik.memento.getItem();
 if (there)	{
     magik.ianuae(there)
 } else {
-    co
+    const here = magik.hic();
+    magik.memento(here);
 }
